@@ -1,0 +1,13 @@
+type Query {
+  store: Store
+}
+
+type Store {
+  users: [User]
+}
+
+type User {
+  name: String
+  id: String
+  email: String
+}
